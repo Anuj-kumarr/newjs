@@ -12,11 +12,27 @@
 // arrays,objects,functions
 
 
-const id=Symbol('123')
-const dosriid=Symbol('123')
-console.log(id)
-console.log(dosriid)
-console.log(id===dosriid)
+// const id=Symbol('123')
+// const dosriid=Symbol('123')
+// console.log(id)
+// console.log(dosriid)
+// console.log(id===dosriid)
+
+//ab nonprimitive ke examples padhenge
+
+const myfunc=["anuj","kumar","rajput"]
+const anuj={
+    name:"anu",
+    age:22
+}
+console.log(anuj)
+const vari=function()
+{
+    console.log("anuj is a millionare");
+    console.log("haa bhai anuj is a millionare")
+}
+vari()
+//har kisi nonprimitive ka data type object hi hota hai ...function ka objectfunction hota hai
 
 
 
